@@ -9,16 +9,11 @@ SectionPagesMenu = "main"
 Paginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
 googleAnalytics = ""
 enableRobotsTXT = true
-disqusShortname = "yourdiscussshortname"
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
+disqusShortname = "www-path-to-programming-tech"
 
 [params]
   favicon = ""
-  description = "The last theme you'll ever need. Maybe."
+  description = ""
   facebook = ""
   twitter = "https://twitter.com/SDiamante13"
   instagram = ""
@@ -26,7 +21,8 @@ disqusShortname = "yourdiscussshortname"
   github = "https://www.github.com/SDiamante13"
   gitlab = ""
   linkedin = "https://www.linkedin.com/in/steven-diamante-6a2b7782/"
-  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  show_reading_time = true
+  cover_dimming_class = "bg-black-40"
   background_color_class = "bg-mid-gray"
-  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  featured_image = ""
   recent_posts_number = 5

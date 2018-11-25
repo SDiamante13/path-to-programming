@@ -1,6 +1,7 @@
 ---
 title: "About"
 date: 2018-09-27T12:02:05-05:00
+featured_image: '/images/wooden_path.jpg'
 draft: false
 ---
 
