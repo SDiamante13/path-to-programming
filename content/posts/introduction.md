@@ -2,6 +2,7 @@
 draft: false
 title: "Introduction"
 date: 2018-09-26T23:46:19-05:00
+tags: []
 ---
 
 ## What I do
@@ -26,7 +27,7 @@ My first day on the job I learned that Linux is amazing! I had been avoiding it 
 
 I will talk much more about the other things I've learned in future posts.
 
-![Linux] (linux_lolcat.png)
+![Linux] (/images/linux_lolcat.png)
 
 ___
 ## When are we going to program?
@@ -35,7 +36,7 @@ A major part of the XP methodology is automation. When we have written all of ou
 
 That is where a CI/CD pipeline comes into play.
 
-![Concourse] (concourse_deploy.png)
+![Concourse] (/images/concourse_deploy.png)
 
 For our team to get to the point where deploying code is as simple as clicking a button, we must first put the work in first.
 

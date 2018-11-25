@@ -1,1 +1,1 @@
-# diamanteprogramming
+# Path to Programming BLog

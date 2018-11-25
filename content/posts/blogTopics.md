@@ -1,11 +1,9 @@
-+++ 
-draft = true
-date = 2018-10-23T21:27:05-05:00
-title = "Blog Topics"
-slug = "" 
-tags = []
-categories = []
-+++
+--- 
+draft: true
+date: 2018-10-23T21:27:05-05:00
+title: "Blog Topics"
+tags: []
+---
 
 * Docker
 * Concourse pipeline tutorial

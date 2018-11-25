@@ -1,63 +1,32 @@
+title = "Path to Programming Blog"
 baseURL = "https://www.path-to-programming.tech"
 languageCode = "en-us"
-title = "Steven's Programming Blog - Home"
-theme = "hugo-coder"
-languagecode = "en"
-defaultcontentlanguage = "en"
+theme = "gohugo-theme-ananke"
 
-paginate = 20
-canonifyurls = true
-
-pygmentsstyle = "bw"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
-
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 5 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
 disqusShortname = "yourdiscussshortname"
 
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 [params]
-    author = "Steven Diamante"
-    info = "XP Software Developer"
-    description = "Steven Diamante's personal website"
-    keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpg"
-
-    favicon_32 = "/img/favicon-32x32.png"
-    favicon_16 = "/img/favicon-16x16.png"
-
-    footercontent = "\"Every great developer you know got there by solving problems they were unqualified to solve until they actually did it.\" - Patrick McKenzie"
-
-    hidecredits = false
-    hidecopyright = false
-
-    rtl = false
-
-    math = true
-    custom_css = ["css/custom.css"]
-
-# Social links
-[[params.social]]
-    name = "Github"
-    icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/SDiamante13/"
-[[params.social]]
-    name = "LinkedIn"
-    icon = "fab fa-linkedin"
-    weight = 4
-    url = "https://www.linkedin.com/in/steven-diamante-6a2b7782/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
-    weight = 3
-    url = "https://twitter.com/DiamanteSteven"
-
-# Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
-
+  favicon = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/SDiamante13"
+  instagram = ""
+  youtube = ""
+  github = "https://www.github.com/SDiamante13"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/steven-diamante-6a2b7782/"
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-mid-gray"
+  featured_image = "/images/gohugo-default-sample-hero-image.jpg"
+  recent_posts_number = 5

@@ -22,7 +22,7 @@ Today I will go through the simple tasks to set up a SSH tunnel from your Intell
 
 To test out remote debugging on a simple project, you can navigate to [start.spring.io]https://start.spring.io You can configure your simple rest controller.
 
-[Controller] (controller.png)
+[Controller] (/images/controller.png)
 
 ## Configuration
 
@@ -30,7 +30,7 @@ To deploy your app to PCF you will need to include a file called: `manifest.yml`
 
 Here is a sample `manifest.yml`:
 
-![Manifest] (manifest.png)
+![Manifest] (/images/manifest.png)
 
 Please add the following line:
 
