@@ -1,4 +1,4 @@
-baseURL = "https://pedantic-mayer-645997.netlify.com"
+baseURL = "https://www.path-to-programming.tech"
 languageCode = "en-us"
 title = "Steven's Programming Blog - Home"
 theme = "hugo-coder"
