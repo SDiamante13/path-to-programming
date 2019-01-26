@@ -1,8 +1,8 @@
 ---
-draft: false
 title: "Introduction"
 date: 2018-09-26T23:46:19-05:00
-tags: []
+featured_image: '/images/road_beginning.jpeg'
+draft: false
 ---
 
 ## What I do

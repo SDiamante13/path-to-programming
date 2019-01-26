@@ -1,10 +1,9 @@
-+++ 
-draft = false
-date = 2018-10-16T10:37:44-05:00
-title = "Remote Debugging PCF Apps"
-slug = "" 
-tags = ["PCF", "Debug"]
-+++
+--- 
+date: 2018-10-16T10:37:44-05:00
+title: "Remote Debugging PCF Apps"
+featured_image: '/images/cloud-foundry.png'
+tags: ["PCF", "Debug", Springboot]
+---
 
 # Remote Debugging 
 
