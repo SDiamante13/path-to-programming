@@ -6,13 +6,13 @@ theme = "gohugo-theme-ananke"
 MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
-Paginate = 7 # this is set low for demonstrating with dummy content. Set to a higher number
+Paginate = 7
 googleAnalytics = ""
 enableRobotsTXT = true
 disqusShortname = "www-path-to-programming-tech"
 
 [params]
-  favicon = ""
+  favicon = "favicon.ico"
   description = ""
   facebook = ""
   twitter = "https://twitter.com/DiamanteSteven"

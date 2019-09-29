@@ -15,8 +15,9 @@ In this post, we will explore some simple Linux commands that will help you get 
 * `cat filename.txt` (prints the contents of the file to the screen)
 * `vim filename.txt` (opens up file in vim text editor)
 * `[tab]` (pressing tab autocompletes path or filename if it is in the directory)
-* `rm -rf images` (removes file or folder, use with caution!)
+* `rm -rf images` (removes file or folder recursively and forced, use with caution!)
 * `cp images/pic1.jpg .` (copies the jpg to the current directory)
+* `mv images/pic1.jpg .` (moves the jpg to the current directory)
 * `pwd` (prints current path)
 * `mkdir temp` (makes a new directory)
 * `touch file1.txt` (creates a new file)
@@ -25,12 +26,12 @@ In this post, we will explore some simple Linux commands that will help you get 
 * `cd -` (go back to the last directory you were in)
 * `file filename.txt` (lists what type of file)
 * `whatis vim` (lists usages of command, i.e. vim)
-* `apropos h`
+* `man (command)` (looks up the manual for a specific command)
 
 ## Piping
-A very powerful feature of Linux is the function of piping. Most linux command do one thing very well. If you would like to combine multiple function together you can use a pipe: `|`
+A very powerful feature of Linux is the function of piping. Most linux commands do one thing very well. If you would like to combine multiple function together you can use a pipe: `|`
 
-If you would like to print a file, but only the last 30 lines you would use:
+If you would like to print a file, but only want the last 30 lines you would use:
 
 `cat file1.txt | tail -n 30`
 
@@ -38,7 +39,7 @@ ___
 
 Now for some more advanced commands:
 
-* `h | grep keyword` (lists history for all commands which use the keyword)
+* `h | grep {keyword}` (lists history for all commands which use the keyword)
 * `grep` in itself is a very useful command for filtering and searching for specific characters
 * `ctrl+R` (reverse search, begin typing and this command will search in the history for something that fits this)
 * `ps -aux` (lists all processes running on your machine)
