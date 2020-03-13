@@ -1,6 +1,7 @@
 --- 
 date: 2018-10-16T10:37:44-05:00
 title: "Remote Debugging PCF Apps"
+draft: false
 featured_image: '/images/cloud-foundry.png'
 tags: ["PCF", "Debug", Springboot]
 ---
