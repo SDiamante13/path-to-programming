@@ -7,7 +7,7 @@ tags: []
 
 * Docker [x]
 * Concourse pipeline tutorial
-* Git tutorial
+* Git tutorial [x]
 * Gemfire basics
 * Android lifecycle and components exploration
 * Android plugins and frameworks/libraries
@@ -27,6 +27,7 @@ tags: []
 * SSTechnos Walkthrough
 * Mockk + Koin
 * Mockito tutorial
+* SOAP Web Services
 
 ## How to Gist
 
