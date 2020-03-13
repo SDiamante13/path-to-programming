@@ -1,7 +1,7 @@
 ---
 title: "Linux"
 date: 2018-09-27T01:46:38-05:00
-draft: true
+draft: false
 ---
 
 ## Linux
@@ -43,4 +43,6 @@ Now for some more advanced commands:
 * `grep` in itself is a very useful command for filtering and searching for specific characters
 * `ctrl+R` (reverse search, begin typing and this command will search in the history for something that fits this)
 * `ps -aux` (lists all processes running on your machine)
+
+**More to come**
 

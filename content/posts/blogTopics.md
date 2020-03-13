@@ -26,8 +26,9 @@ tags: []
 * Firebase tutorial
 * SSTechnos Walkthrough
 * Mockk + Koin
-* Mockito tutorial
+* Mockito tutorial [x]
 * SOAP Web Services
+* Kubernates
 
 ## How to Gist
 

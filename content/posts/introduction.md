@@ -6,7 +6,7 @@ draft: false
 ---
 
 ## What I do
-I work in an Extreme Programming (XP) environment. XP is an agile methology that mainly consists of pair programming and test driven development (TDD). Pair programming has been very good to me as a new developer. I have gotten to work with very talented and experienced devs. I will go more in depth about XP practices in a future post.
+I work in an Extreme Programming (XP) environment. XP is an agile methodology that mainly consists of pair programming and test driven development (TDD). Pair programming has been very good to me as a new developer. I have gotten to work with very talented and experienced devs. I will go more in depth about XP practices in a future post.
 ___
 ## What I've learned 
 

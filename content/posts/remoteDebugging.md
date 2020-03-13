@@ -19,9 +19,13 @@ Today I will go through the simple tasks to set up a SSH tunnel from your Intell
 
 ## Setup a simple project to test
 
-To test out remote debugging on a simple project, you can navigate to [start.spring.io]https://start.spring.io You can configure your simple rest controller.
+To test out remote debugging on a simple project, you can navigate to the [Spring Initializer](https://start.spring.io) Name your project and choose the Spring Web dependency. Generate, unzip, and open the project in your favorite IDE. I will be using IntelliJ IDEA.
 
-[Controller] (/images/controller.png)
+![Spring Initializer](/images/spring-initializer.png)
+
+You can now configure your simple rest controller.
+
+![Controller](/images/controller.png)
 
 ## Configuration
 
@@ -35,7 +39,7 @@ Please add the following line:
 
 ```
 env:
-JBP_CONFIG_DEBUG: '{enabled: true}'
+JBP_CONFIG_DEBUG: {enabled: true}
 ```
 
 This will enable your PCF instance to be debuggable.

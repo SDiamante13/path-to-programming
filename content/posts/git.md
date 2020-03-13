@@ -15,11 +15,11 @@ Version control is a tool used to collaborate between people working on a codeba
 
 # Background
 
-Git was orginially developed in 2005 by Linus Torvalds, the creator of Linux. Before those days, a lot of development teams would pass files around through email, floppy disks, and archived files. There was a system called CVS that had been an usage since the 1980s, but it was not ideal for sharing large projects between many developers. In 2002, Linus and his team decided to use a VCS called BitKeeper. BitKeeper is a "distributed system, whereby whole repositories [can] be forked and merged easily." However, being that this was a proprietary piece of software the Linux developers were held to restrictions as they were only interested in the free license. After abandoning BitKeeper and not finding a suitable VCS, Linus put his Linux work on hold to build his own VCS called Git. Some features of BitKeeper are present in Git such as fork, merge, and rebase.
+Git was originally developed in 2005 by Linus Torvalds, the creator of Linux. Before those days, a lot of development teams would pass files around through email, floppy disks, and archived files. There was a system called CVS that had been an usage since the 1980s, but it was not ideal for sharing large projects between many developers. In 2002, Linus and his team decided to use a VCS called BitKeeper. BitKeeper is a "distributed system, whereby whole repositories [can] be forked and merged easily." However, being that this was a proprietary piece of software the Linux developers were held to restrictions as they were only interested in the free license. After abandoning BitKeeper and not finding a suitable VCS, Linus put his Linux work on hold to build his own VCS called Git. Some features of BitKeeper are present in Git such as fork, merge, and rebase.
 
 # Terminology & Syntax
 
-***reposistory (repo)*** - your project and all of its folders and files
+***repository (repo)*** - your project and all of its folders and files
 
 ***master*** - the repo's main branch that the production ready code lives
 
@@ -27,11 +27,11 @@ Git was orginially developed in 2005 by Linus Torvalds, the creator of Linux. Be
 
 ***clone*** - to copy an existing git repo to your local workstation
 
-***commit*** - to submit changes and new files to the existing reposistory
+***commit*** - to submit changes and new files to the existing repository
 
-***fetch/pull*** - brings in the lastest changes that do not exist locally; pull executes a combined fetch and merge function
+***fetch/pull*** - brings in the latest changes that do not exist locally; pull executes a combined fetch and merge function
 
-***push*** - to submit the lastest commits to the remote repository
+***push*** - to submit the latest commits to the remote repository
 
 ***SHA*** - Every commit or node in the Git tree has a unique SHA key which can be used as an id to perform further operations
 
@@ -39,9 +39,9 @@ Git was orginially developed in 2005 by Linus Torvalds, the creator of Linux. Be
 
 ## Commonly used Commands
 
-`git pull` - pulls in changes from the remote reposistory
+`git pull` - pulls in changes from the remote repository
 
-`git add .` - stages changed files to be commited
+`git add .` - stages changed files to be committed
 
 `git commit` - commits files to the local repo
 
@@ -51,7 +51,7 @@ Git was orginially developed in 2005 by Linus Torvalds, the creator of Linux. Be
 
 There are three main states that your files can reside in:
 
-1. **Commited** is the state when none of your files differ from what is currently stored in the local repo. 
+1. **Committed** is the state when none of your files differ from what is currently stored in the local repo. 
 2. **Modified** is the state where the file has been changed but has not yet been staged.
 3. **Staged** is the state at which the file has been indexed and will go into the next commit snapshot.
 

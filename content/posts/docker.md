@@ -9,7 +9,7 @@ draft: false
 
 ## Docker Introduction
 
-I gaurantee you that any company you work for nowadays will be utilizing some kind of container for testing and deploying applications. The most popular of the container softwares is Docker. The main benefit of Docker is that if someone wants to run your application on their computer, they do not have to try to match your software versions just to run it. All they need to do is have Docker installed on their machine and they will be able to run your program in an isolated container that you have given the instructions on which version of software to run and how to launch the program. 
+I guarantee you that any company you work for nowadays will be utilizing some kind of container for testing and deploying applications. The most popular of the container softwares is Docker. The main benefit of Docker is that if someone wants to run your application on their computer, they do not have to try to match your software versions just to run it. All they need to do is have Docker installed on their machine and they will be able to run your program in an isolated container that you have given the instructions on which version of software to run and how to launch the program. 
 
 ## Docker Terminology
 
@@ -111,7 +111,7 @@ docker rmi {IMAGE ID}
 
 ## Dockerfile
 
-There are many images that are avilable for you to use on Docker Hub, however most times we need to design a custom image instead. That is where the Dockerfile comes into play.
+There are many images that are available for you to use on Docker Hub, however most times we need to design a custom image instead. That is where the Dockerfile comes into play.
 
 {{< gist SDiamante13 50a3d0fd56ce66fa1ee0c4cf87add0ae >}}
 
@@ -143,7 +143,7 @@ docker run -d -p 8085:8085 --name springboot-mongo --link=mongo  springboot-mong
 
 ## Test out the Rest API
 
-Open up Chrome or an API development enviroment like Postman or Insomnia and try it out!
+Open up Chrome or an API development environment like Postman or Insomnia and try it out!
 
 I'll be using Postman to show that the Rest Controller is operating as expected.
 
@@ -175,7 +175,7 @@ When I rotated onto the Android team at my job I utilized Docker right away. We 
 
 {{< gist SDiamante13 a15fdcd637cb32ccdf9ba6e75e7ca307 >}}
 
-I took the initiative and built the sandbox a docker container. I also wrote a bash script to quickly run all the commands neccessary and restart the sandbox whenever necessary. The team loved it and continues to see the time saved every day.
+I took the initiative and built the sandbox a docker container. I also wrote a bash script to quickly run all the commands necessary and restart the sandbox whenever necessary. The team loved it and continues to see the time saved every day.
 
 
 
