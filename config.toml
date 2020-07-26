@@ -7,7 +7,7 @@ MetaDataFormat = "yaml"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 7
-googleAnalytics = ""
+googleAnalytics = "UA-173532748-1"
 enableRobotsTXT = true
 disqusShortname = "www-path-to-programming-tech"
 

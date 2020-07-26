@@ -30,6 +30,7 @@ tags: []
 * SOAP Web Services
 * Kubernates
 * Multi-step Docker builds
+* Kafka
 
 ## How to Gist
 

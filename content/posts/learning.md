@@ -149,13 +149,13 @@ I look back at myself from 6 months ago and think about how much I didn't unders
 
 I want to be better than I was yesterday. To do this, I accept that I will make mistakes and that is okay. I will share my mistakes with others so they can learn from my failures as well.
 
-### Post mordem
+### Post mortem
 
-A post mordem is a meeting where a group of people reflect on a major malfunction that happened in their product. My only post mordem was a year into my career when I was an anchor on an API team using a MySQL database as their datasource. 
+A post mortem is a meeting where a group of people reflect on a major malfunction that happened in their product. My only post mortem was a year into my career when I was an anchor on an API team using a MySQL database as their datasource. 
 
 One morning our database crashed and we were not prepared on how to handle it. We did not know the proper people to contact to fix the problem and we were not even sure on the exact location of our database to tell those people where to look. Not knowing that there were better solutions, we as a group decided we would start up a brand new database and start our ETL process to load data (50 million records) from our centralized DB2 datasource. This process took over 4 days to complete. Our Staging application was not functioning for that whole time, which blocked other teams using our API from testing their new feature changes.
 
-During the post mordem, we talked about very detailed events and times that happened during the crisis. The PCF Platform team that manages the database were also there. It gave us a chance to build a working relationship with them and learn from all of our mistakes. By putting everything out there we were able to learn the correct course of action the next time this happens. Our database crashed a month later in production and we were able to get it restarted in less than an hour. Later, we identified the root cause and upgraded our storage capacity. As a result, the crashes stopped happening.
+During the post mortem, we talked about very detailed events and times that happened during the crisis. The PCF Platform team that manages the database were also there. It gave us a chance to build a working relationship with them and learn from all of our mistakes. By putting everything out there we were able to learn the correct course of action the next time this happens. Our database crashed a month later in production and we were able to get it restarted in less than an hour. Later, we identified the root cause and upgraded our storage capacity. As a result, the crashes stopped happening.
 
 # Learn from other developers
 
@@ -163,7 +163,7 @@ I cannot write this article without giving credit to developers that I have work
 
 ![alt text](/images/stack-overflow.png)
 
-StackOverflow is a website I frequently find myself coming across. When a challenging bug, error message, or library shows itself I will google it and there is StackOverflow with the answer in most cases. But how often have you answered a question on StackOverflow? I found myself always taking from the community so I decided to start giving back. I usually search for java, spring, mockito, kotlin, and junit. I scroll through the questions until I find one that I'm confident I can answer. Even if I don't know the answer right away, a little research or debugging their problem in my IDE usually gives me enough to help them out. At first it can be hard to do anything on StackOverflow, because of their ranking system. Look for a really easy questions in the beginning and make sure you are the first one answering. Eventually you will be given more freedom to comment, rate others' questions and answers, and do other things like post bounties. Seeing how other people are using technologies and writing code helps me become a better developer as well. I am able to learn from their mistakes or see a bug I had never seen before.
+StackOverflow is a website I frequently find myself coming across. When a challenging bug, error message, or library shows itself I will google it and there is StackOverflow with the answer in most cases. But how often have you answered a question on StackOverflow? I found myself always taking from the community so I decided to start giving back. I usually search for Java, Spring, Mockito, Kotlin, and JUnit. I scroll through the questions until I find one that I'm confident I can answer. Even if I don't know the answer right away, a little research or debugging their problem in my IDE usually gives me enough to help them out. At first it can be hard to do anything on StackOverflow, because of their ranking system. Look for a really easy questions in the beginning and make sure you are the first one answering. Eventually you will be given more freedom to comment, rate others' questions and answers, and do other things like post bounties. Seeing how other people are using technologies and writing code helps me become a better developer as well. I am able to learn from their mistakes or see a bug I had never seen before.
 
 # Algorithms
 
