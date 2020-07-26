@@ -26,3 +26,4 @@ disqusShortname = "www-path-to-programming-tech"
   background_color_class = "bg-mid-gray"
   featured_image = ""
   recent_posts_number = 6
+  custom_css = ["css/custom.css"]
