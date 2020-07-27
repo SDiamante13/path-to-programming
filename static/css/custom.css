@@ -1,22 +1,44 @@
 .cf {
+    text-align: justify;
+    opacity: 1.0;
+    width: 100%;
+    height: auto;
+}
 
+.nested-links {
     text-align: justify;
-    
     opacity: 1.0;
-    
     width: 100%;
-    
     height: auto;
-    }
-     
-    .nested-links{
-    
-    text-align: justify;
-    
-    opacity: 1.0;
-    
-    width: 100%;
-    
-    height: auto;
-    
-    }
+}
+
+.email-form {
+    text-align: center;
+}
+
+.email-input {
+    position: relative;
+    text-align: center;
+    width: 350px;
+    font-size: 1em;
+    padding: 3px;
+    display: inline-block;
+    border-radius: 9999em;
+    margin-bottom: 20px;
+}
+
+.email-button {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 200px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #1c89ff;
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
