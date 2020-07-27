@@ -5,6 +5,10 @@
     height: auto;
 }
 
+.hidden {
+    display: none;
+}
+
 .nested-links {
     text-align: justify;
     opacity: 1.0;
