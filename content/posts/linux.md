@@ -3,7 +3,7 @@ title: "Linux"
 date: 2018-09-27T01:46:38-05:00
 draft: false
 featured_image: '/images/linux-matrix.jpg'
-tags: ["PCF", "Debug", Springboot]
+tags: ["linux", "bash", cli]
 ---
 
 ## Linux
