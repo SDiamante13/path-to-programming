@@ -7,18 +7,14 @@ description: "How I automate the start and end of my work day"
 draft: true
 ---
 
-
-
-
-
-
+work.sh
 ___
 
 #!/bin/bash
 
 # Open applications need to start your work day
 
-open -a "Google Chrome.app" https://tomato-timer.com https://www.pivotaltracker.com/n/projects/2353404
+open -a "Google Chrome.app" https://tomato-timer.com https://www.pivotaltracker.com
 
 open -a "Slack.app"
 

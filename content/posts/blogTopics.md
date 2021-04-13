@@ -32,6 +32,16 @@ tags: []
 * Multi-step Docker builds
 * Kafka
 
+Updating in 2021
+
+* Windows Package Manager - Chocolatey, install process, and some programs I like
+* Mocks with Jest
+* How to create AWS EC2 Instance using Terraform
+* Create a trading bot using Alpaca API and Python
+ 
+
+
+
 ## How to Gist
 
 {{< gist SDiamante13 1e5f3af9b86945b329bd950dbfb3886e >}}
