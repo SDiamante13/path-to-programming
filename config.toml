@@ -1,7 +1,7 @@
 title = "Path to Programming Blog"
 baseURL = "https://www.path-to-programming.tech"
 languageCode = "en-us"
-theme = "gohugo-theme-ananke"
+theme = "ananke"
 canonifyURLs = true
 
 MetaDataFormat = "yaml"
