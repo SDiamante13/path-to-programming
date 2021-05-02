@@ -15,3 +15,9 @@ Now you can run the app locally without any errors by running the following comm
 Navigate to http://localhost:1313 to see changes locally.
 
 The Hugo CLI can be downloaded at [gohugo.io](https://gohugo.io/getting-started/installing/).
+
+## Adding New Posts
+
+Enter the following in your terminal:
+
+`hugo new posts/my-post-name.md`
