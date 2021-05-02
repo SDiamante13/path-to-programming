@@ -10,7 +10,7 @@ draft: false
 
 ## Transitioning from XP to Scrum
 
-Today I will discuss two Agile frameworks: Extreme Programming (XP) and Scrum. I have 2+ years of experience with XP and a couple of months of Scrum experience. A lot of the content in this post is based on my own experiences with these two frameworks. Please note that these methodologies can vary slightly from place to place.
+Today I will discuss two Agile frameworks: Extreme Programming (XP) and Scrum. After working in an XP environment for several years, I've recently started on my first Scrum team. A lot of the content in this post is based on my own experiences with these two frameworks. Please note that these methodologies can vary slightly from place to place.
 
 ## Wait, what's Agile again?
 
