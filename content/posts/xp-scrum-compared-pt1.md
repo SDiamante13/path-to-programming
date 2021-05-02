@@ -1,6 +1,6 @@
 ---
 title: "Agile Methodologies: Comparing XP and Scrum"
-date: 2021-05-01T22:25:31-05:00
+date: 2021-04-29T22:25:31-05:00
 tags: [agile, soft skills]
 featured_image: "/images/agile_cover.png"
 toc: true
