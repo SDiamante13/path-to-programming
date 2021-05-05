@@ -6,6 +6,7 @@ featured_image: "/images/agile_cover.png"
 toc: true
 description: "This post is part one of a two part series which explores the similarities and differences between Scrum and XP. I also share my own experiences on transitioning from XP to Scrum."
 draft: false
+canonicalUrl: https://path-to-programming.tech/xp-scrum-compared-pt1
 ---
 
 ## Transitioning from XP to Scrum
