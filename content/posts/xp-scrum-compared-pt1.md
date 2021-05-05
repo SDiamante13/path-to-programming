@@ -6,14 +6,14 @@ featured_image: "/images/agile_cover.png"
 toc: true
 description: "This post is part one of a two part series which explores the similarities and differences between Scrum and XP. I also share my own experiences on transitioning from XP to Scrum."
 draft: false
-canonicalUrl: https://path-to-programming.tech/xp-scrum-compared-pt1
+canonicalUrl: https://path-to-programming.tech/posts/xp-scrum-compared-pt1
 ---
 
-## Transitioning from XP to Scrum
+# Transitioning from XP to Scrum
 
 Today I will discuss two Agile frameworks: Extreme Programming (XP) and Scrum. After working in an XP environment for several years, I've recently started on my first Scrum team. A lot of the content in this post is based on my own experiences with these two frameworks. Please note that these methodologies can vary slightly from place to place.
 
-## Wait, what's Agile again?
+# Wait, what's Agile again?
 
 The idea of Agile started with the [Agile Manifesto](https://agilemanifesto.org/). The creators of this document recognized that building software is unlike factory manufacturing or constructing a building. There are many unknowns in software, and Agile is an attempt to improve the approach of building software.
 
@@ -21,17 +21,17 @@ The idea of Agile started with the [Agile Manifesto](https://agilemanifesto.org/
 
 Okay cool, so now we know where Agile came from, but the manifesto was just the beginning. Much like the Constitution of the United States, people working in the software industry had to interpret the meaning of this concise document. This led to several different [flavors of Agile](https://www.mindedge.com/agile/the-seven-flavors-of-agile/). We will look at two of them today. Let's breakdown some of the fundamental concepts of XP and Scrum and analyze how they differ.
 
-## Two Agile Frameworks
+# Two Agile Frameworks
 
 Extreme Programming was founded by Kent Beck in 1996. XP is an Agile framework that focuses on how to deliver software quickly and heavily relies on feedback cycles and input from the end user. XP requires it's practitioners to engage in several engineering practices like pair programming, test driven development, continuous integration, and incremental design.
 
 Scrum was founded by Jeff Sutherland and Ken Schwaber in 1993. According to [Scrum Guides](https://scrumguides.org/scrum-guide.html), Scrum is a lightweight framework that helps people, teams, and organizations generate value through adaptive solutions for complex problems. The pillars of Scrum are transparency, inspection, and adaptation. Scrum has five events that implement these pillars: The Sprint, Sprint Planning, Daily Standup, Sprint Review, and Sprint Retrospective.
 
-## XP and Scrum Differences
+# XP and Scrum Differences
 
 XP and Scrum differ in their values, execution, and engineering practices. However, at the end of the day their common goal is to produce high quality software that their customers will use and enjoy. How they go about achieving this goal is where the differences reside.
 
-### Sprint Cycles
+## Sprint Cycles
 
 > What's a sprint?
 
@@ -51,11 +51,11 @@ Another aspect of the Scrum sprint that is a little awkward to me is imposing de
 
 Not getting a story into production was usually not an issue for our teams. Instead, the following Monday we would just add stories, chores, and bugs to our existing backlog as we always do and carry on with any work in progress. Deadline pressures can create a sense of urgency that invite developers to cut corners and bypass quality measures in order to MEET THE DEADLINE. There's already enough deadlines in the software world, so why do we need to create more for ourselves? I understand that teams may need to give themselves some kind of time box to stay in a flow, but time estimates are very difficult in software&mdash;I don't think a team should be scrutinized if they do not finish some of their stories by the end of the sprint.
 
-### Engineering Practices
+## Engineering Practices
 
 Scrum has no required engineering practices that are imposed on product teams. For that reason, this section will be largely dedicated to XP and its practices. Those practices are pair programming, test driven development, continuous integration and incremental design.
 
-##### Pair Programming
+### Pair Programming
 
 Pair programming is when two developers work on a piece of software together. In my previous lab, we had an open concept office space where each pair had a monitor and keyboard in front of them. The displays were mirrored so whatever I saw on my display, my pair would also see.
 
@@ -65,7 +65,7 @@ There are two roles in pair programming&mdash;the driver and the navigator. The 
 
 Programming with someone else gives both developers accountability, focus, and it's pretty fun as well! Pairing has its ups and its downs. While being incredibly rewarding, it can also be emotionally draining as you need to be able to communicate your thoughts to someone else while you are both trying to solve a complex problem. When done correctly pair programming results in fewer defects, better design, and a more collaborative team.
 
-##### Test Driven Development
+### Test Driven Development
 
 Test driven development (TDD) or test first development is the practice of writing an automated test before writing the production code necessary to make the test pass. The TDD cycle is red, green, refactor.
 
@@ -81,11 +81,11 @@ The sequence is as follows:
 
 TDD enforces that our code is easily testable. Since we've already written the test then it's very easy to write testable code. Make it fail, make it work, make it better. This feedback loop enables us to solve complex problems by breaking it down into its simplest form and tackling one chunk at a time.
 
-##### Continuous Integration
+### Continuous Integration
 
 ["Continuous integration (CI)](https://www.thoughtworks.com/continuous-integration) is a development practice that requires developers to integrate code into a shared repository several times a day." By working on smaller tasks and doing TDD along the way, developers are able to always have working software that is ready to deploy whenever. This practice naturally leads to more frequent deployments. Frequent deployments can reduce the complexity of change introduced into a system and allow feedback to quickly come from the users of the software. To achieve CI it is common for XP teams to utilize [trunk based development](https://trunkbaseddevelopment.com/), whereby they push all code directly onto the master branch.
 
-##### Incremental Design
+### Incremental Design
 
 Incremental design was first explained to me by a coworker by using a famous analogy by Henrik Kniberg.
 
