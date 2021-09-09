@@ -27,3 +27,7 @@ Enter the following in your terminal:
 ## Schedule Posts using Github Actions
 
 This blog uses the [merge-scheduler Github Action](https://www.jasongaylord.com/blog/2020/07/31/schedule-merging-pull-requests-in-github). To schedule a new article, add `/schedule 2020-08` as a comment on the PR.
+
+## How to add links that open in new tab
+
+{{< a_blank title="Text Goes Here" url="https://myurl.com/" >}}
