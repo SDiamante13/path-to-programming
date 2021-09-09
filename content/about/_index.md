@@ -1,12 +1,10 @@
 ---
-title: "About"
-date: 2018-09-27T12:02:05-05:00
+title: 'About Me'
+date: 2021-09-8T17:00:00-00:00
 featured_image: '/images/blog_cover.jpg'
 draft: false
 ---
 
-My name is Steven Diamante. I started my first software developer job in February 2018. My major in college was Electrical Engineering so I have been programming for 7 years. I started out with Matlab and moved on to C and C++. After college I worked as a patent classifier in Virginia. During my three years of reading patents about semiconductors, logic circuits, and other electronics, I began my journey back to programming. Using the resources of our technologically advanced time I learned languages such as C# (ASP.Net), Java (Spring Boot), and Python. I worked on some side projects and became addicted to learning new programming skills. 
+The Path to Programming blog is maintained and authored by Steven Diamante. Steven has been developing software professionally since 2018. His beginnings were in an Extreme Programming environment where he learned about the value of testing and collaboration. Since then he has been curiously learning and exploring the domain of software development. Steven is interested in different programming languages such as Javascript, Java, Golang, and Python. He is also a strong practitioner of Test Driven Development and is eager to apply testing in any codebase.
 
----
-I've decided to start my own blog to teach others what I have learned thus far on my software developer voyage. I continue to learn new things every day and absolutely love what I do. 
-
+Check out {{< a_blank title="The Path to Programming Youtube Channel" url="https://www.youtube.com/channel/UCxxHkYTfLe5EM7SpcLCIY0w" >}}!
