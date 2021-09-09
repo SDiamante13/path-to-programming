@@ -1,5 +1,5 @@
 ---
-title: "Welcome to the Path to Programming"
+title: "Path to Programming"
 featured_image: '/images/blog_cover.jpg'
-description: "Please join me as we dive into various programming topics"
+description: "Be enlightened by the design, stay for the clean code"
 ---
