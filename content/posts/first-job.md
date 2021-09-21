@@ -1,6 +1,6 @@
 ---
 title: 'How I got my First Software Developer Job'
-date: 2021-09-16T10:13:03-04:00
+date: 2021-09-23T10:13:03-04:00
 tags: [career, soft skills]
 featured_image: '/images/first-job-cover.jpg'
 description: 'An account of the process I went through in transitioning from a career as an electrical engineer to being a software developer'
