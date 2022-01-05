@@ -22,7 +22,7 @@ The Hugo CLI can be downloaded at [gohugo.io](https://gohugo.io/getting-started/
 
 Enter the following in your terminal:
 
-`hugo new posts/my-post-name.md`
+`hugo new posts/my-post-name.md` 
 
 ## Schedule Posts using Github Actions
 
