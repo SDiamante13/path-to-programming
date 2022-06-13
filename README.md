@@ -4,11 +4,11 @@
 
 ---
 
-To build locally you must add the ananke theme to the themes folder.
+To build locally you must pull in the latest ananke theme submodule.
 
 Run the following command:
 
-`git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke`
+`git submodule update --init --recursive`
 
 Now you can run the app locally without any errors by running the following command:
 

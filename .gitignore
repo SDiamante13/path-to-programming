@@ -9,3 +9,6 @@ $RECYCLE.BIN/
 .DS_Store
 
 public
+
+.idea/
+.hugo_build.lock
