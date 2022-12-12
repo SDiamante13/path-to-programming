@@ -28,13 +28,13 @@ Refactoring allows us to grow our design over time. We can start out with a simp
 
 # Welcome to the wonder world of refactoring!
 
-If this is your first introduction to refactoring, I'm sure that you've already used some of these refactoring before without even knowing it. In this post we will learn names and steps to some common refactorings. We will explore how to safely refactor your code. Add more to this!
+If this is your first introduction to refactoring, I'm sure that you've already used some of these refactoring before without even knowing it. In this post we will learn ome of the names and steps to some refactorings. We will explore how to safely refactor your code. Add more to this!
 
 # What if I mess up? How do I protect against regressions?
 
 When first diving into the pool of refactoring it can be quite intimidating. You could find yourself in a codebase that is crucial for the business you work for and introducing any bugs into the system could cost them huge sums of money. We should never wander into refactoring, but instead take a mindful approach and follow a safe strategy for accomplishing your task of improving the design of the code.
 
-One of the best safe guards against regressions is having an automated test suite that can be run after making any refactorings. You should have tests that you trust to reflect the behavior of the system. Another safety measure while refactoring is to utilize an IDE and use the built-in refactoring tools. The refactoring methods that an IDE like IntelliJ has can handle your basic refactorings. It will not always cover every situation, but I would learn those tools and opt for those first as they can reduce the time it takes and protect against mistakes that humans like to make.
+One of the best safeguards against regressions is having an automated test suite that can be run after making any refactorings. You should have tests that you trust to reflect the behavior of the system. Another safety measure while refactoring is to utilize an IDE and use the built-in refactoring tools. The refactoring methods that an IDE like IntelliJ has can handle your basic refactorings. It will not always cover every situation, but I would learn those tools and opt for those first as they can reduce the time it takes and protect against mistakes that humans like to make.
 
 # Common Refactorings
 
@@ -42,27 +42,57 @@ Let's look at some basic refactorings that you may find yourself using in the fu
 
 ## Extract method
 
-Extract method is the act of taking some code and calling from a private method within the same class. This can a great way to have your code comment itself.
+Extract method is the act of taking some code and calling it from a private method within the same class. This can a great way to have your code comment itself.
 
-Add example here?
 
-void sendInvoice(Invoice invoice) {
+The following example comes from the Tennis Game Refactoring Kata by Emily Bache. This code is checking to see if the player scores are the same. If they are then the text representation of the score is returned.
 
+```java
+if (player1Score == player2Score) {
+            switch (player1Score) {
+                case 0:
+                    score = "Love-All";
+                    break;
+                case 1:
+                    score = "Fifteen-All";
+                    break;
+                case 2:
+                    score = "Thirty-All";
+                    break;
+                default:
+                    score = "Deuce";
+                    break;
+            }
+        }
+```
+
+We can apply extract method to allow this code block to become more readable. Now this method name describes the intent.
+
+```java
+if (player1Score == player2Score) {
+    score = determineDrawResult();
 }
+```
 
 ## Rename Method
 
 Naming is hard right? The rename method refactoring can be applied when you discover a method that can be named better. The names we choose for variables, methods, and classes should be intention revealing and give the reader a sense of that scope's responsibility.
 
+I won't include an example since this is a trivial refactoring. Remember to use your IDE's rename functionality, so you can rename all the instances at once which will save time and bugs.
+
 ## Replace Temp with Query
 
+Temporary variables don't add much to the story that code trys to tell. So why don't we get rid of them with this next refactoring called *Replace Temp with Query*.
+
 ## Form Template Method
+
+
 
 ## Inline Method
 
 ## There's more where that came from
 
-Fowler's Refactoring book has 72 refactorings and there are other modern ones that have been introduced by others. We will look at some other refactoring in this guide as well.
+Fowler's Refactoring book has 72 refactorings and there are other modern ones that have been introduced by others.
 
 # What to look for? Code Smells
 
@@ -93,7 +123,7 @@ Here's the strategy I normally employ while refactoring:
 3. If I had to make any manual moves, then I run the tests
 4. If the next refactoring I am attempting is rather complex then I commit.
 
-I used to run the tests after every move I make, but I have been trying to utilize my IDE as much as possible and I've learned to trust it.
+I used to run the tests after every move I make, but I have been trying to utilize my IDE as much as possible, and I've learned to trust it.
 
 # When should I refactor? Refactoring workflows (Credit Martin Fowler talk)
 
@@ -116,3 +146,5 @@ So, when should you stop refactoring? Have a goal in mind and stop refactoring w
 # Leveraging the IDE
 
 # Examples
+
+Post video series
