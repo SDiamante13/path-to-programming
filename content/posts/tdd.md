@@ -1,9 +1,9 @@
 ---
 title: "Take smaller steps with test driven development"
-date: 2022-12-21T12:00:00-04:00
+date: 2022-02-26T12:00:00-04:00
 tags: ["tdd", "refactoring", "design"]
 featured_image: "/images/footprints.jpg"
-description: ""
+description: "A beginner's guide to TDD"
 draft: false 
 canonicalUrl: "https://www.path-to-programming.tech/posts/tdd/"
 ---
@@ -15,17 +15,17 @@ When I first started coding in college, I remember how hard programming was in t
 
 {{< youtube ekMImsw3Z7Y >}}
 
-Back then, I was not good at design. We're talking "death from a 1000 if's" here. My professor encouraged everyone to write many comments. Now I understand why... our code was impossible to read! Back then, no ones code read like a book.
+Back then, I was not good at design. We're talking "death from a thousand if's" here. My professor encouraged everyone to write many comments. Now I understand why... our code was impossible to read! Back then, no ones code read like a book.
 The night before the due date a few of us from class were working together. I had so many conditionals in my code I couldn't keep all the logic of the program in my brain. I was not able to compile my program and was completely stuck. I got help from a classmate, and he helped me debug the problem. Back then debugging was a crucial skill to learn. After you get the main process it seems simple. Some people take great pride in their ability to set up breakpoints and track a bunch of variables. However, I was never that good at it. It turns out I don't need to be a virtuoso debugger. I have TDD.
 
-> I'm not a great programmer, I'm a good programmer with great habits - Kent Beck
+> "I'm not a great programmer, I'm a good programmer with great habits" - Kent Beck
 
 
 # TDD - the great equalizer
 
 Test driven development is an engineering practice that helps me write better code. Not only does writing the tests first allow you to have testable code, but you'll take smaller steps and be able to iterate on your design. 
 
-TDD is about gaining control. The feedback loop that TDD gives you yields so much power. At any moment you can verify your software works the way you expect it to. These automated tests serve as the safety net when we are evolving our software design. Refactoring without tests is very risky. TDD gives developers the confidence they need to refactor at any moment. 
+TDD is about gaining control. The feedback loop that TDD gives you yields so much power. At any moment you can verify your software works the way you expect it to. These automated tests serve as a safety net when we are evolving our software design. Refactoring without tests is very risky. TDD gives developers the confidence they need to refactor at any moment. 
 
 But that's enough theory. The best way to learn TDD is to practice it.
 
@@ -33,11 +33,7 @@ But that's enough theory. The best way to learn TDD is to practice it.
 
 To learn the rhythm and flow of TDD we are going to work on a small exercise together. 
 
-## Business use case
-
-> "It takes approximately 365.25 days for Earth to orbit the Sun — a solar year. We usually round the days in a calendar year to 365. To make up for the missing partial day, we add one day to our calendar approximately every four years. That is a leap year." - NASA
-
-![Alt Text](/images/earth.jpg)
+## Problem Statement
 
 Write a function that returns true or false depending on whether its input integer is a leap year or not.
 
@@ -48,6 +44,10 @@ A leap year is divisible by 4, but is not otherwise divisible by 100 unless it i
 * 1992 is another typical leap year
 * 1900 is an atypical common year
 * 2000 is an atypical leap year
+
+> "It takes approximately 365.25 days for Earth to orbit the Sun — a solar year. We usually round the days in a calendar year to 365. To make up for the missing partial day, we add one day to our calendar approximately every four years. That is a leap year." - NASA
+
+![Alt Text](/images/earth.jpg)
 
 ## Test setup
 
