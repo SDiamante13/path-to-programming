@@ -1,6 +1,6 @@
 ---
 title: "Take smaller steps with test driven development"
-date: 2022-02-26T12:00:00-04:00
+date: 2023-02-26T12:00:00-04:00
 tags: ["tdd", "refactoring", "design"]
 featured_image: "/images/footprints.jpg"
 description: "A beginner's guide to TDD"
