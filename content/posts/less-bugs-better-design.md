@@ -31,17 +31,20 @@ What to test? Try ZOMBIES
 
 # Improve your code design
 
+If you are having the following problems:
+
 Everytime I read code I've written from a week ago I can't understand it
 I'm not sure how to produce maintainable software
 The tests I'm writing are getting in my way, I try to change the code and all the tests break
 
-Test-Driven development
+Then, Test-Driven Development is your solution!
 
 Introduces the refactoring concept
 
 # Where do I start?
 
 TDD katas: FizzBuzz, Leap Year, and Acronym Generator to start
+OO design: Mars Rover, Tic-Tac-Toe, Game of Life
 Challenge: Do not write production code first, without writing a test.
 Measure: Take a measurement of the bugs you are currently producing and compare them after 3 months of trying this.
 
