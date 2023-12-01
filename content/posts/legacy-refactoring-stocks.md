@@ -5,7 +5,7 @@ tags: [design, legacy, refactoring, Java]
 featured_image: ""
 description: "My adventure of cleaning up the code I wrote as a young programmer."
 draft: true
-canonicalUrl: "https://www.path-to-programming.tech/posts/legacy-refactoring-stocks/"
+canonicalUrl: "https://www.pathtoprogramming.com/posts/legacy-refactoring-stocks/"
 ---
 
 # Refactoring my old apps

@@ -5,7 +5,7 @@ tags: [design, mindset]
 featured_image: '/images/gardening-karolina-grabowska.jpg'
 toc: true
 draft: false
-canonicalUrl: 'https://www.path-to-programming.tech/posts/10-rules-caring-dev/'
+canonicalUrl: 'https://www.pathtoprogramming.com/posts/10-rules-caring-dev/'
 ---
 
 ## 1. Leave the code better than you found it

@@ -5,6 +5,6 @@ tags: []
 featured_image: ""
 description: ""
 draft: true
-canonicalUrl: "https://www.path-to-programming.tech/posts/{{ .File.TranslationBaseName }}/"
+canonicalUrl: "https://www.pathtoprogramming.com/posts/{{ .File.TranslationBaseName }}/"
 ---
 

@@ -5,7 +5,7 @@ tags: [jest, react, testing, XP]
 featured_image: '/images/tdd-react.png'
 description: 'This is a reflection on my practice of blind coding a website using TDD'
 draft: false
-canonicalUrl: 'https://www.path-to-programming.tech/posts/tdd-react/'
+canonicalUrl: 'https://www.pathtoprogramming.com/posts/tdd-react/'
 ---
 
 # TDD in React

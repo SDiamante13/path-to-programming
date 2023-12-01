@@ -5,7 +5,7 @@ tags: [soft skills, learning, career]
 featured_image: "/images/learning_cover.jpg"
 description: "This post is a reflection on my software development career two years in. It is primarily focused on how I go about learning new technologies and skills."
 draft: false
-canonicalUrl: https://www.path-to-programming.tech/posts/learning/
+canonicalUrl: https://www.pathtoprogramming.com/posts/learning/
 ---
 
 # Career Reflection

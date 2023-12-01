@@ -5,7 +5,7 @@ tags: ["design", "OO"]
 featured_image: ""
 description: ""
 draft: true
-canonicalUrl: "https://www.path-to-programming.tech/posts/wrappers-design/"
+canonicalUrl: "https://www.pathtoprogramming.com/posts/wrappers-design/"
 ---
 
 Don't mock what you own

@@ -5,7 +5,7 @@ tags: ["design", "testing", "tdd"]
 featured_image: ""
 description: "Learn how Test-first development and Test driven development can improve your code writing abilities"
 draft: true
-canonicalUrl: "https://www.path-to-programming.tech/posts/less-bugs-better-design/"
+canonicalUrl: "https://www.pathtoprogramming.com/posts/less-bugs-better-design/"
 ---
 
 # The common software developer predicament 

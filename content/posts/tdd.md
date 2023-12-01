@@ -5,7 +5,7 @@ tags: ["tdd", "refactoring", "design"]
 featured_image: "/images/footprints.jpg"
 description: "A beginner's guide to TDD"
 draft: false 
-canonicalUrl: "https://www.path-to-programming.tech/posts/tdd/"
+canonicalUrl: "https://www.pathtoprogramming.com/posts/tdd/"
 ---
 
 # You can stop improving your debugging skills

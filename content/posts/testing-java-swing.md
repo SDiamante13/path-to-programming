@@ -5,7 +5,7 @@ tags: [testing, java, UI, legacy]
 featured_image: ''
 description: ''
 draft: true
-canonicalUrl: 'https://www.path-to-programming.tech/posts/testing-java-swing/'
+canonicalUrl: 'https://www.pathtoprogramming.com/posts/testing-java-swing/'
 ---
 
 # What to expect

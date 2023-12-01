@@ -5,7 +5,7 @@ tags: [design, refactoring]
 featured_image: ''
 description: 'This post will explore common code smells and the relative refactorings needed to improve the current design.'
 draft: true
-canonicalUrl: 'https://www.path-to-programming.tech/posts/refactoring-guide/'
+canonicalUrl: 'https://www.pathtoprogramming.com/posts/refactoring-guide/'
 ---
 
 # What is refactoring?

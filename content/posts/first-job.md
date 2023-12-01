@@ -6,7 +6,7 @@ featured_image: '/images/first-job-cover.jpg'
 description: 'An account of the process I went through in transitioning from a career as an electrical engineer to being a software developer'
 toc: true
 draft: false
-canonicalUrl: 'https://www.path-to-programming.tech/posts/first-job/'
+canonicalUrl: 'https://www.pathtoprogramming.com/posts/first-job/'
 ---
 
 # How it all started
