@@ -14,8 +14,6 @@ Two years ago, I attended an open space session at an online conference called M
 
 I had heard of a technical coach before, but this time it really stood out to me. The experience I had with him changed my career trajectory completely.
 
-A technical coach helps teams become the best version of themselves by exposing them to technical excellence.
-
 A technical coach guides teams toward technical excellence which helps them reach their full potential.
 
 > “Continuous attention to technical excellence
