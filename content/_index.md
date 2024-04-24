@@ -1,5 +1,5 @@
 ---
 title: "Path to Programming"
 featured_image: '/images/blog_cover.jpg'
-description: "Be enlightened by the design, stay for the clean code"
+description: "Discover the secrets of XP practices like refactoring, pairing, and test driven development to elevate your skills and excel in agile software development."
 ---
